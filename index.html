@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+</head>
+<body>
+  
+  <div class="desktop-modal">
+        <img src="icon-close.svg" alt="close" id="close-btn" onclick="closeModal()">
+         <img src="icon-previous.svg" alt="prev" id="prev-img" onclick="prev()">
+         <img src="image-product-1.jpg" alt="shoes" id="modal-img">
+         <img src="icon-next.svg" alt="next" id="next-img" onclick="next()">
+     
+   </div>
+
+
+<!--MOBILE MENU-->
+
+<nav class="mobile-nav">
+  <ul class="navlist-mobile">
+    <li class="navleft-mobile"><img src="icon-menu.svg" id="menu" alt="menu" onclick="openNav()"></li>
+      <li class="navleft-mobile"><img src="logo.svg" id="logo-img-mobile" alt="Logo"></li>
+  </ul>
+
+  <ul class="navlist-right-mobile">
+    <li class="navright-mobile"><img src="icon-cart.svg" id="cart-mobile" alt="Cart"></li>
+      <li class="navright-mobile"><img src="image-avatar.png" id="avatar-mobile" alt="Profile"></li>
+  </ul>
+</nav>
+
+
+
+<nav class="side-navs">
+  <img src="icon-close.svg" alt="close" id="close-nav" onclick="closeNav()">
+  <li class="side-nav">Collections</li>
+  <li class="side-nav">Men</li>
+  <li class="side-nav">Women</li>
+  <li class="side-nav">About</li>
+  <li class="side-nav">Contact</li>
+</nav>
+
+
+<!----->  
+ <nav class="navbar">
+    <ul class="navlist">
+      <li class="navleft"><img src="logo.svg" id="logo-img" alt="Logo"></li>
+      <li class="navleft">Collections</li>
+      <li class="navleft">Men</li>
+      <li class="navleft">Women</li>
+      <li class="navleft">About</li>
+      <li class="navleft">Contact</li>
+    </ul>
+
+    <ul class="navlist-right">
+      <li class="navright"><img src="icon-cart.svg" id="cart" alt="Cart"></li>
+      <li class="navright"><img src="image-avatar.png" id="avatar" alt="Profile"></li>
+         </ul> 
+   </nav> <hr>
+
+
+   <div class="body">
+
+    <div class="left-side">
+
+      <div class="top">
+        <img src="image-product-1.jpg" id="product1" alt="product1">
+      </div>
+
+      <div class="bottom">
+        <img src="image-product-1.jpg" alt="product-1" id="product2" class="bottom-img">
+        <img src="image-product-2.jpg" alt="product2" id="product3" class="bottom-img">
+        <img src="image-product-3.jpg" alt="product3" id="product4" class="bottom-img">
+        <img src="image-product-4.jpg" alt="product4" id="product5" class="bottom-img">
+      </div>
+
+    </div>
+    
+
+<div class="right-side">
+  <p id="sneaker">SNEAKER COMPANY</p>
+  <h1 id="fall">Fall Limited Edition Sneakers</h1>
+  <p id="lower-text">These low-profile sneakers are your perfect casual wear companion. Featuring a  durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+      <div class="price">
+  <h3 id="price">$125.00</h3>
+  <p id="discount">50%</p>
+      </div>
+  <p id="second-price">$250.00</p>
+
+  <div class="buttons">
+    <button id="minus" class="left-buttons" >-</button>
+    <button id="value" class="left-buttons">0</button>
+    <button id="plus" class="left-buttons">+</button>
+    <button id="cart-btn">Add to cart</button>
+  </div>
+    
+</div>
+
+   </div>
+
+   
+
+</body>
+<script src="SCRIPT.JS"></script>
+</html>
